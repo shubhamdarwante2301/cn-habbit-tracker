@@ -1,0 +1,68 @@
+.habbitContainer {
+  padding: 1rem;
+}
+.addHabbits {
+  padding: 1rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(44, 43, 43),
+    rgba(139, 111, 57, 0.425)
+  );
+  text-align: center;
+  margin-top: 1rem;
+}
+.addHabbitBtn {
+  color: black;
+  padding-left: 0.6rem;
+}
+.habbit {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(44, 43, 43),
+    rgba(139, 111, 57, 0.425)
+  );
+  color: #fff;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.habbitAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.habbitAction a {
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+.trash {
+  color: red;
+  font-size: 1.3rem;
+}
+@media (min-width: 400px) {
+    .habbit {
+        margin: 1rem auto;
+        max-width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .trash {
+        margin-left: 1rem;
+    }
+    .addHabbits {
+      max-width: 500px;
+      margin: 1rem auto;
+      border-radius: 1rem;
+    }
+}

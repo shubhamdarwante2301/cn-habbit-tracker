@@ -1,0 +1,71 @@
+.hobbyContainer {
+    margin: 1rem 0;
+}
+.noHabbits {
+    text-align: center;
+    background-image: linear-gradient(to right bottom, rgb(156, 150, 150), rgba(114, 96, 60, 0.425));
+    padding: 1rem;
+}
+.addHabbitBtn {
+    color: black;
+    margin-left: 0.6rem;
+}
+.heading {
+    background-color: lightgray;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.headingMark {
+    background-color: grey;
+    border-radius: 50%;
+    padding: 0.2rem 0.4rem;
+    margin-right: 0.5rem;
+}
+.days {
+    display: flex;
+    overflow: auto;
+}
+.days > div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to right bottom, rgb(156, 150, 150), rgba(114, 96, 60, 0.425));
+}
+@media (min-width: 500px) {
+    .weekContainer {
+        max-width: 500px;
+        margin: 1rem auto;
+        padding: 1rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        background-color: aliceblue;
+    }
+    .days {
+        justify-content: space-between;
+    }
+    .days > div {
+        padding: 0.3rem 0.5rem;
+    }
+}
+.status {
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* status icons */
+.check {
+    color: green;
+}
+.cross {
+    color: red;
+    font-size: 1.4rem;
+}
+.circle {
+    font-size: 1.5rem;
+    color: lightgray;
+}
+.date {
+    font-size: 0.7rem;
+}

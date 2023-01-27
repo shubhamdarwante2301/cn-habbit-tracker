@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+    background-color: rgb(247, 153, 31);
+}
+.navbar a {
+    text-decoration: none;
+    color: #000;
+}
+.logo {
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+.logo::after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 0, 0, 40%);
+}
+.rightMenu {
+    display: flex;
+    align-items: baseline;
+}
+.addHabbitBtn {
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+.addHabbitText {
+    margin: 0 1.5rem;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: none;
+}
+@media (min-width: 450px) {
+    .addHabbitBtn {
+        display: none;
+    }
+    .addHabbitText {
+        display: block;
+    }
+}
