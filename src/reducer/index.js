@@ -1,6 +1,7 @@
 import { ADD_HABBIT, DELETE_HABBIT, GET_LOCAL_DATA, UPDATE_APP_DAILY, UPDATE_HABBIT } from "../actions";
 import { getLocalData, setLocalData, weekData } from "../components/utils/localData";
 
+// initioal state for store
 const INITIALSTATE = {
   habbits: [],
 };
@@ -9,6 +10,7 @@ if (localStorage.getItem("localData") === null) {
   setLocalData(INITIALSTATE);
 }
 
+// reducer function for redux store
 const reducer = (state = INITIALSTATE, action) => {
   switch (action.type) {
     case GET_LOCAL_DATA:

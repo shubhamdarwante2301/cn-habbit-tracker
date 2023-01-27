@@ -1,3 +1,22 @@
+# HABITS TRACKER
+
+## Description 
+
+Welcome to Habits Tracker, a React-based web application that helps you track and maintain your daily habits.
+
+github repo: Open [habits tracker](https://github.com/shubhamdarwante2301/cn-habbit-tracker)
+
+live hosted link: [habit-tracker-project](https://habbittracker.netlify.app/)
+
+
+## Functionality
+
+1 ) Add multiple new habits
+
+2 ) Maintain existing habits
+
+3 ) View the last six days' status of your habits (completed, not completed, not defined)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
